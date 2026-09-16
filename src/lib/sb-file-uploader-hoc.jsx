@@ -40,7 +40,7 @@ const messages = defineMessages({
  * </SBFileUploaderHOC>
  */
 const SBFileUploaderHOC = function (WrappedComponent) {
-    class SBFileUploaderComponent extends React.Component {
+    class TurboFileUploaderComponent extends React.Component {
         constructor (props) {
             super(props);
             bindAll(this, [
